@@ -1,0 +1,30 @@
+html {
+	height: 100% !important;
+	background: #221f1f !important;
+}
+
+body {
+	height: 100% !important;
+	overflow: hidden !important; 
+}
+
+@media (min-width: 960px) and (max-width: 1360px) {
+	.uk-child-width-1-4\@m>* {
+		width: 25% !important;
+	}
+}
+
+@media (min-width: 1600px) {
+	.uk-child-width-1-4\@m>* {
+		width: 15% !important;
+	}
+}
+
+.uk-navbar-nav > li > a {
+	min-height: 60px !important;
+}
+
+.uk-panel {
+	font-weight: 700;
+	font-size: 40px;
+}
